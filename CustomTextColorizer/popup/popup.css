@@ -1,0 +1,49 @@
+/* popup/popup.css */
+
+html {
+  background-color: rgba(144, 238, 144, 0.1);
+}
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;    
+  }
+  img {
+    max-width: 50px;
+  }
+  
+  h1 {
+    margin: 10px auto;
+    text-align: center;
+    font-size: 20px;
+    color: green;
+}
+  
+  input[type="color"] {
+    margin: 10px auto;
+    cursor: crosshair;
+    width: 80px;
+    height: 80px;
+    border: 0px;
+  }
+  
+  button {
+    margin-right: 10px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-color: green;
+    color: white;
+    text-transform: uppercase;
+    margin: 5px auto;
+    width: max-content;
+    border: 0px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: darkgreen;
+  }
+  
